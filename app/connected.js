@@ -68,7 +68,7 @@ PL$3/*promiseland exception catcher*/(function(){
     PL$21/*console*/["log"]("x");
     var PL$22/*bin*/ = PL$11/*toUint8Array*/(PL$20/*parDataStr*/);
     ;
-    PL$9/*player*/["decode"](PL$22/*bin*/);
+    PL$9/*player*/["decodeRaw"](PL$22/*bin*/);
     ;}));
   PL$1.resolve(); return;}), PL$4/*catch rejected*/);
   ;}), PL$4/*catch rejected*/);
